@@ -1,20 +1,21 @@
-h1 {
-  color: #e6855e;
-  font-size: 30px;
-  /* Gantikan background-color ke #f3f372 */
-  background-color: #f3f372;
-  
-  /* Gantikan height ke 80px */
-  height: 80px;
-  
-  /* Gantikan width ke 200px */
-  width: 200px;
+body {
+  font-family: "Avenir Next";
 }
 
-img {
-  /* Gantikan height ke 50px */
-  height: 50px;
-  
-  /* Gantikan width ke 70px */
-  width: 70px;
+/* Gantikan background-color header ke #f7f2b4, dan height ke 90px */
+.header {
+  background-color: #f7f2b4;
+  height: 90px;
+}
+
+/* Gantikan background-color main ke #bdf7f1, dan height ke 600px */
+.main {
+  background-color: #bdf7f1;
+  height: 600px;
+}
+
+/* Gantikan background-color footer ke #ceccf3, dan height ke 270px */
+.footer {
+  background-color: #ceccf3;
+  height: 270px;
 }
