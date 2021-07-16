@@ -4,8 +4,8 @@ body {
 
 li {
   list-style: none;
+  /* Pindahkan kedua baris dibawah kesekitar baris 25 */
   float: left;
-  /* Ubahlah padding atas & bawah ke 33px, dan padding kiri & kanan ke 20px */
   padding: 33px 20px;
 }
 
@@ -18,8 +18,13 @@ li {
 .header-logo {
   float: left;
   font-size: 36px;
-  /* Ubahlah padding atas & bawah ke 20px, dan padding kiri & kanan ke 40px */
   padding: 20px 40px;
+}
+
+/* Tambahkan CSS tag <li> yang diatas kedalam header-list */
+.header-list li {
+  float: left;
+  padding: 33px 20px;
 }
 
 .main {
